@@ -428,7 +428,7 @@ int handle_if_else_statment(Commands *current, int pipes_num)
 
         if (if_state != NEUTRAL)
         {
-            check_row_counter == ;
+            check_row_counter++;
             rv = syn_err("if expected");
         }
         else
